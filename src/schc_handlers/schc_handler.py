@@ -2,17 +2,6 @@
 
 from schc_base import SCHCObject
 from schc_protocols import SCHCProtocol, get_protocol
-import sys
-
-# sys.path.insert(0, "/home/pi/Cristian/PySCHC/lopy-message/compression_layer/code/") # RASP
-# sys.path.insert(0, "/windows/Cristian/Github/SCHC-Project/PySCHC/lopy-message/compression_layer/code/") # NOTE
-
-# from SCHC_Compressor import SCHC_Compressor
-# from SCHC_Decompressor import SCHC_Decompressor
-# from SCHC_RuleManager import SCHC_RuleManager
-
-#from schc_compression import SCHC_Compressor, SCHC_Decompressor, SCHC_RuleManager
-
 from schc_compression.SCHC_RuleManager import SCHC_RuleManager
 from schc_compression.SCHC_Compressor import SCHC_Compressor
 from schc_compression.SCHC_Decompressor import SCHC_Decompressor
