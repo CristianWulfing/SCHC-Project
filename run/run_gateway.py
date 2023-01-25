@@ -1,3 +1,15 @@
+#!/usr/bin/env python
+
+# **************************************************************************
+#   SCHC PROJECT
+# **************************************************************************
+#   AUTHOR: CRISTIAN AUGUSTO WüLFING
+#   EMAIL: cris_wulfing@hotmail.com
+#   CITY: Santa Maria - Rio Grande do Sul - Brasil
+#   FOUNDATION: Fox IoT
+# **************************************************************************
+#   Copyright(c) 2023 Fox IoT.
+# **************************************************************************
 
 import logging, time, os, sys, fcntl, struct, select, codecs, json
 

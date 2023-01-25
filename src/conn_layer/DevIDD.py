@@ -1,3 +1,15 @@
+
+# **************************************************************************
+#   SCHC PROJECT
+# **************************************************************************
+#   AUTHOR: CRISTIAN AUGUSTO WüLFING
+#   EMAIL: cris_wulfing@hotmail.com
+#   CITY: Santa Maria - Rio Grande do Sul - Brasil
+#   FOUNDATION: Fox IoT
+# **************************************************************************
+#   Copyright(c) 2023 Fox IoT.
+# **************************************************************************
+
 from Crypto.Hash import CMAC
 from Crypto.Cipher import AES
 import binascii
