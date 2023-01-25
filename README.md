@@ -45,8 +45,7 @@ Furthermore, the project was used in my undergraduate thesis in order to complet
 
     $ sudo python run/run_node_2.py
 
---
-
+---
 
 ## Copyright
 
