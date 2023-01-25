@@ -50,6 +50,8 @@ Furthermore, the project was used in my undergraduate thesis in order to complet
 
 ## Copyright
 
-Copyright &copy 2021 NIC Chile Research Labs
-Copyright &copy 2023 Fox IoT
-Copyright &copy 2023 Cristian Augusto Wülfing
+&copy; 2021 NIC Chile Research Labs
+
+&copy; 2023 Fox IoT
+
+&copy; 2023 Cristian Augusto Wülfing
