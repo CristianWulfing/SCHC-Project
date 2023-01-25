@@ -10,6 +10,10 @@ Furthermore, the project was used in my undergraduate thesis in order to complet
 
 ## First Steps
 
+### Library settup
+
+    $ python src/setup.py develop 
+
 ### Linux tun setup
 
     $ sudo ip tuntap add mode tun name tun0
