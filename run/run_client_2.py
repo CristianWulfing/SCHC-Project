@@ -6,7 +6,7 @@
 #   AUTHOR: CRISTIAN AUGUSTO WüLFING
 #   EMAIL: cris_wulfing@hotmail.com
 #   CITY: Santa Maria - Rio Grande do Sul - Brasil
-#   FOUNDATION: Fox IoT
+#   COMPANY: Fox IoT
 # **************************************************************************
 #   Copyright(c) 2023 Fox IoT.
 # **************************************************************************
