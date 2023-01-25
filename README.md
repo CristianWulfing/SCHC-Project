@@ -1,6 +1,6 @@
 # SCHC-Project
 
-SCHC communication protocol Python implemention based on the work of [PySCHC](https://github.com/niclabs/PySCHC), according to [RFC8724](https://datatracker.ietf.org/doc/html/rfc8724) and [RFC9011](https://datatracker.ietf.org/doc/html/rfc9011). This work consider the whole SCHC protocol (compression and fragmentation) applied to a real enviroment. It runs the communication between IPv6/UDP applications and a Smart Meter connected to a Raspberry Pi 3 over LoRaWAN. A second Node is used in order to evaluate the network cccuracy.
+SCHC communication protocol Python implemention based on the work of [PySCHC](https://github.com/niclabs/PySCHC), according to [RFC8724](https://datatracker.ietf.org/doc/html/rfc8724) and [RFC9011](https://datatracker.ietf.org/doc/html/rfc9011). This work consider the whole SCHC protocol (compression and fragmentation) applied to a real enviroment. It runs the communication between IPv6/UDP applications and a Smart Meter connected to a Raspberry Pi 3 over LoRaWAN. A second Node is used in order to evaluate the network accuracy.
 
 This project was financed in part by the Coordenação de Aperfeiçoamento de Pessoal de Nível Superior – Brasil (CAPES) – Finance Code 001 and the companies Mux Energia and Fox IoT, by the R&D project ANEEL PD-00401-0005/2020.
 
