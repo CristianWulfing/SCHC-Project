@@ -10,7 +10,11 @@ Furthermore, the project was used in my undergraduate thesis in order to complet
 
 ## First Steps
 
-### Library settup
+### Dependencies setup
+
+    $ pip install -r requirements.txt
+
+### PySCHC library setup
 
     $ python src/setup.py develop 
 
