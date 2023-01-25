@@ -45,6 +45,11 @@ Furthermore, the project was used in my undergraduate thesis in order to complet
 
     $ sudo python run/run_node_2.py
 
-Copyright (c) 2021 NIC Chile Research Labs
-Copyright (c) 2023 Fox IoT
-Copyright (c) 2023 Cristian Augusto Wülfing
+--
+
+
+## Copyright
+
+Copyright &copy 2021 NIC Chile Research Labs
+Copyright &copy 2023 Fox IoT
+Copyright &copy 2023 Cristian Augusto Wülfing
