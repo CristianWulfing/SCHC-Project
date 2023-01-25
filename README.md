@@ -4,7 +4,7 @@ SCHC communication protocol Python implemention based on the work of [PySCHC](ht
 
 This project was financed in part by the Coordenação de Aperfeiçoamento de Pessoal de Nível Superior – Brasil (CAPES) – Finance Code 001 and the companies Mux Energia and Fox IoT, by the R&D project ANEEL PD-00401-0005/2020.
 
-Furthermore, the project was used in my undergraduate thesis in order to complete the Computer Engineer degree at Federal University of Santa Maria (UFSM), Santa Maria - Brazil.
+Furthermore, the project was used in my undergraduate thesis in order to complete the Computer Engineer degree at Federal University of Santa Maria (UFSM) - Brazil.
 
 ---
 
