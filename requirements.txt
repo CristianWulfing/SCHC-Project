@@ -1,3 +1,4 @@
+setuptools==58.2.0
 crypto==1.4.1
 cryptography==3.4.8
 iso8601==1.0.2
