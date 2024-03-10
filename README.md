@@ -10,6 +10,11 @@ Furthermore, the project was used in my undergraduate thesis in order to complet
 
 ## First Steps
 
+### Virtual environment setup
+
+    $ python3 -m venv .venv
+    $ source .venv/bin/activate
+
 ### Dependencies setup
 
     $ pip install -r requirements.txt
