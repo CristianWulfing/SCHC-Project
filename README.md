@@ -22,7 +22,7 @@ Furthermore, the project was used in my undergraduate thesis in order to complet
 ### PySCHC library setup
 
     $ cd src
-    $ sudo python3 setup.py develop 
+    $ sudo .venv/bin/python setup.py develop 
     $ cd ..
 
 ### Linux tun setup
@@ -34,23 +34,23 @@ Furthermore, the project was used in my undergraduate thesis in order to complet
 
 ### Gateway
 
-    $ sudo python3 run/run_gateway.py
+    $ sudo .venv/bin/python run/run_gateway.py
 
 ### Application 1
 
-    $ sudo python3 run/run_client_1.py
+    $ sudo .venv/bin/python run/run_client_1.py
 
 ### Application 2
 
-    $ sudo python3 run/run_client_2.py
+    $ sudo .venv/bin/python run/run_client_2.py
 
 ### Node 1
 
-    $ sudo python3 run/run_node_1.py
+    $ sudo .venv/bin/python run/run_node_1.py
 
 ### Node 2
 
-    $ sudo python3 run/run_node_2.py
+    $ sudo .venv/bin/python run/run_node_2.py
 
 ---
 
