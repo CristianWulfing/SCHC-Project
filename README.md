@@ -22,7 +22,7 @@ Furthermore, the project was used in my undergraduate thesis in order to complet
 ### PySCHC library setup
 
     $ cd src
-    $ sudo .venv/bin/python setup.py develop 
+    $ sudo ../.venv/bin/python setup.py develop 
     $ cd ..
 
 ### Linux tun setup
