@@ -46,8 +46,7 @@ class MQTTconn:
             self.confirmed = confirmed
 
         def obj2json(self):
-            json_msg = json.dumps(self.__dict__)
-            return str(json_msg)
+            return self.__dict__
 
     def on_connect(self, mqttc, mosq, obj, rc):
         logging.info(f"[MQTT] Connected with result code: {rc}")
@@ -71,12 +70,13 @@ class MQTTconn:
 
         logging.info(f"[MQTT] Sending to device {DevEUI} on port {port}: {payload.hex()}")
 
-        messages = {"downlinks":[]}
+        ttnFormatMsg = {"downlinks":[]}
 
-        b64 = codecs.encode(payload, 'base64').decode()
-        msg1 = self.DownlinkMessage(port=port, payload=b64, confirmed=False, priority="HIGHEST")
-        messages["downlinks"].append(msg1)
+        b64 = codecs.encode(payload, 'base64').decode().replace("\n", "")
+        msg = self.DownlinkMessage(port=port, payload=b64, confirmed=False, priority="HIGHEST")
+        ttnFormatMsg["downlinks"].append(msg.obj2json())
+
+        print(json.dumps(ttnFormatMsg))
 
         pub_topic  = "v3/{}/devices/eui-{}/down/replace".format(self.AppID, DevEUI) # push | replace
-        json_msgs = str(json.dumps(messages, default=self.obj_dict))
-        self.mqttc.publish(pub_topic, payload=json_msgs, qos=0, retain=False)
+        self.mqttc.publish(pub_topic, payload=json.dumps(ttnFormatMsg), qos=0, retain=False)
