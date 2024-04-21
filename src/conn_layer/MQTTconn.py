@@ -76,7 +76,5 @@ class MQTTconn:
         msg = self.DownlinkMessage(port=port, payload=b64, confirmed=False, priority="HIGHEST")
         ttnFormatMsg["downlinks"].append(msg.obj2json())
 
-        print(json.dumps(ttnFormatMsg))
-
         pub_topic  = "v3/{}/devices/eui-{}/down/replace".format(self.AppID, DevEUI) # push | replace
         self.mqttc.publish(pub_topic, payload=json.dumps(ttnFormatMsg), qos=0, retain=False)
