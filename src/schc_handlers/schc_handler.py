@@ -47,7 +47,7 @@ class SCHCHandler:
         rm = SCHC_RuleManager()
 
         rule_91 = {"ruleid": 91,
-                "devid": 'eui-70b3d57ed0055d4f',
+                "devid": 'eui-70b3d57ed0066a20',
                 "content": [["IPv6.version",        4,  1, "Bi",    6,                  "equal",            "not-sent"],
                             ["IPv6.trafficClass",   8,  1, "Bi",    0,                  "MSB(6)",           "LSB"],
                             ["IPv6.flowLabel",      24, 1, "Bi",    None,               "ignore",           "value-sent"],
@@ -55,7 +55,7 @@ class SCHCHandler:
                             ["IPv6.nextHeader",     8,  1, "Bi",    None,               "ignore",           "value-sent"],
                             ["IPv6.hopLimit",       8,  1, "Bi",    None,               "ignore",           "value-sent"],
                             ["IPv6.devPrefix",      64, 1, "Bi",    0x5454000000000000, "equal",            "not-sent"],
-                            ["IPv6.devIID",         64, 1, "Bi",    0xe838e51bbc85898c, "equal",            "not-sent"],
+                            ["IPv6.devIID",         64, 1, "Bi",    0x06a85c6ca4323b25, "equal",            "not-sent"],
                             ["IPv6.appPrefix",      64, 1, "Bi",    0xabcd000000000000, "equal",            "not-sent"],
                             ["IPv6.appIID",         64, 1, "Bi",    0x0000000000000010, "equal",            "not-sent"],
 
@@ -67,7 +67,7 @@ class SCHCHandler:
         rm.add_rule(rule_91)
 
         rule_92 = {"ruleid": 92,
-                "devid": 'eui-70b3d57ed0058962',
+                "devid": 'eui-70b3d57ed0066a21',
                 "content": [["IPv6.version",        4,  1, "Bi",    6,                  "equal",            "not-sent"],
                             ["IPv6.trafficClass",   8,  1, "Bi",    0,                  "MSB(6)",           "LSB"],
                             ["IPv6.flowLabel",      20, 1, "Bi",    None,               "ignore",           "value-sent"],
@@ -75,7 +75,7 @@ class SCHCHandler:
                             ["IPv6.nextHeader",     8,  1, "Bi",    None,               "ignore",           "value-sent"],
                             ["IPv6.hopLimit",       8,  1, "Bi",    None,               "ignore",           "value-sent"],
                             ["IPv6.devPrefix",      64, 1, "Bi",    0x5454000000000000, "equal",            "not-sent"],
-                            ["IPv6.devIID",         64, 1, "Bi",    0x925abf5dc5ce02f9, "equal",            "not-sent"],
+                            ["IPv6.devIID",         64, 1, "Bi",    0xfc5902c60c423a48, "equal",            "not-sent"],
                             ["IPv6.appPrefix",      64, 1, "Bi",    0xabcd000000000000, "equal",            "not-sent"],
                             ["IPv6.appIID",         64, 1, "Bi",    0x0000000000000010, "equal",            "not-sent"],
 
